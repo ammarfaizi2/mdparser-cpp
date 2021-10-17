@@ -66,7 +66,7 @@ static __always_inline std::string FixString(const std::string value)
 		finalStr += value[i];
 	}
 
-	return finalStr;	
+	return finalStr;
 }
 
 static __always_inline std::string toNormal(const std::string value)
