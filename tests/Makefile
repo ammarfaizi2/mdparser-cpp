@@ -21,4 +21,4 @@ $(CXX_TESTS:=__do_test): $(CXX_TESTS:=.test)
 clean:
 	@rm -vf $(CXX_TESTS:=.test) $(CXX_TESTS:=.o)
 
-.PHONY: $(CXX_TESTS:=__do_test)
+.PHONY: all runtests clean $(CXX_TESTS:=__do_test)
